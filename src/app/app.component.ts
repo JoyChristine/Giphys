@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Giphys';
+
+  // performSearch(searchTerm: HTMLInputElement): void {
+  //   console.log(`User entered: ${searchTerm.value}`);
 }
+

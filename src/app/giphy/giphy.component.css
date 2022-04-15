@@ -1,0 +1,49 @@
+.menu{
+    display: flex;
+    justify-content: space-around;
+    float: left;
+    margin-left:15% ;color: #fff;
+   
+}
+.menu-list{
+    margin-left: 14%;
+    margin-top:1%;
+    display: flex;
+    justify-content:space-around;
+   
+}
+.menu-list li{
+   
+    margin: 5%;
+    list-style: none;
+}
+#button-group{
+    display: flex;
+    justify-content:space-around;
+    margin-left: 20%;
+    margin-top: 3%;
+    
+
+    
+}
+#button-group a{
+    border: none;
+    color: #fff;
+    height:2.5vw;
+    padding:5% 15% 5% 15%;
+    background-color:rebeccapurple;
+   
+
+}
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+    grid-gap: 1vw 1vw;
+}
+#column img{
+    width: 20vw;
+   height: 20vw;
+    margin: 0 auto auto auto auto;
+
+}

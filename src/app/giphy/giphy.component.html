@@ -1,0 +1,32 @@
+<div align="center" class="gif" style="background-color: black;">
+   
+    <div class="menu">
+        <h1>GIPHY </h1>
+        <ul class="menu-list">
+            <li>Reaction</li>
+            <li>Entertainment</li>
+            <li>Artists</li>
+            <li>Sports</li>
+            <li>Stickers </li>
+        </ul>
+        <div id="button-group">
+            <a> Upload</a>
+            &nbsp;
+            <a> Create</a>
+
+        </div>
+        <div class="right">
+            <img src="https://media.giphy.com/avatars/default3/80h.gif" class="Img-sc-1geurdh djqEjL">
+        </div>
+    </div>
+    <app-search></app-search>
+    <br>
+    <br>
+    <div class="grid" >
+      
+            <div class="gifs-pics" *ngFor="let gif of gifs" id="column">
+                <img src="{{gif.images.downsized.url}}" alt="Gifs">
+           
+        </div>
+    </div>
+</div>
